@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #f2f5fc;
+    overflow: hidden;
+    color: #1d1d1d;
+}
+
+.test{
+    background-color: #004b95;
+    position: absolute;
+    scale: 2;
+    width: 15px;
+    height: 15px;
+    top: 5%;
+    left: 10%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    border-radius: 200px;
+    color: white;
+}
+
+
+.jk{
+    font-size: 8px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 18%;
+}
+
+.dokumenty{
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-weight:500;
+}
+
+.dodaj{
+    position: absolute;
+    color: #597d99;
+    width: 75px;
+    height: 30px;
+    background-color: #dbe9fa;
+    border: #dbe9fa;
+    border-radius: 30px;
+    top: 10%;
+    right: 30%;
+    font-weight: bold;
+}
+
+.wszystkie{
+    position: absolute;
+    color: #597d99;
+    width: 95px;
+    height: 30px;
+    background-color: #dbe9fa;
+    border: #dbe9fa;
+    border-radius: 30px;
+    top: 10%;
+    right: 5%;
+    font-weight: bold;
+}
+ /* autor: jan kupczyk */
+.scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.scroll-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent wrapping of children */
+    padding: 10px; /* Optional: Add some padding */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    margin-left: 8px;
+    margin-top: 32%;
+}
+
+.dowod{
+    margin-right: 10px; /* Space between items */
+}
+
+.prawko{
+    margin-right: 10px; /* Space between items */
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

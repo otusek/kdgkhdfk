@@ -1,0 +1,192 @@
+
+body {
+    font-family: "Roboto Medium", "Roboto", sans-serif;
+    letter-spacing: 0.2px;
+   
+}
+
+.titel {
+    padding: 15px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.dowod-container {
+    position: relative;
+    display: inline-block;
+    width: 99%; /* Szerokość taka sama jak obrazka dowodu */
+    height: 500px; /* Wysokość taka sama jak obrazka dowodu */
+    margin-top: 13%;
+    margin-left: 2%;
+}
+
+.dowodzik {
+    width: 99%;
+    height: 97%;
+    border-radius: 20px;
+    box-shadow: 0 15px 4px rgba(0, 0, 0, 0.123);
+}
+
+.imie, .naz, .ur, .pesel {
+    position: absolute;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+/* Pozycje tekstu na dowodzie */
+.md {
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    font-size: 20px;
+}
+
+.imie {
+    top: -1.5%;
+    left: 48.5%;
+}
+
+.naz {
+    top: 10%;
+    left: 48.5%;
+}
+
+.chujowa{
+    position: absolute;
+    width: 65px;
+    left: 7%;
+    top: 39%;
+}
+
+.ur {
+    top: 32.5%;
+    left: 48.5%;
+}
+
+.pesel {
+    top: 44%;
+    left: 48.5%;
+}
+
+#time-display {
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    font-size: 13px;
+}
+
+.sigma {
+    position: absolute; /* Ustawienie pozycji absolutnej */
+    top: 3%; /* Dostosuj w zależności od tego, jak ma się pozycjonować */
+    left: 5.2%; /* Możesz dostosować w zależności od wyglądu */
+    width: 38%; /* Szerokość obrazu */
+    height: 35%; /* Wysokość automatyczna, aby zachować proporcje */
+    border-radius: 10px; /* Zaokrąglenie rogów */
+}
+
+
+.mini{
+    position: absolute;
+    top: 53%;
+    left: 5.7%;
+    width: 35px;
+}
+
+.klasa69{
+    position: absolute;
+    top: 53.4%;
+    left: 16.5%;
+    font-size: 10px;
+}
+
+.potwierdz{
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 2%;
+    padding: 3%;
+}
+.dane{
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+    padding: 3%;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.doddane{
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 10px;
+    padding: 3%;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+
+
+#angle-right{
+    width: 10%;
+
+}
+
+
+.fat{
+    font-weight: 500;
+    width: 80%;
+    margin:15px auto;
+}
+
+#idc{
+    font-size: 20px;
+    color: #91aac2;
+    padding: 5%;
+}
+
+#angle-right2{
+    width: 10%;
+}
+
+
+.potwierzbut{
+    display: flex;
+    width: 100%;
+    color: black;
+    
+}
+
+.fat2{
+    margin-top: 2%;
+}
+.btn{
+    background-color: #dde9fb;
+    color:#34678d;
+    border:none;
+    border-radius:100px;
+    padding:0.66em 1.5em;
+    font-weight: 600;
+}
+.last-date-minitext{
+    font-size:15px;
+    color:#828285;
+    margin:0 0 7px 0;   
+}
+.last-date{
+    margin:0 75px 0 0;
+}
+#DateToday{
+    font-size:14px;
+    font-weight: 900;
+}

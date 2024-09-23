@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styledowut.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="apple-touch-icon" href="img/godlolol.png">
+    <meta name="apple-mobile-web-app-title" content="piwo">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <script src="https://kit.fontawesome.com/d2b6583b81.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuj pozdro </title>
+</head>
+<body>
+    <div class="titel">
+        <a href="index.html"><i class="fa-solid fa-arrow-left"></i></a> 
+    </div>
+    <h1 class="md">mDowód</h1>
+    <div id="time-display"></div>
+    <div class="flexbox">
+        <div class="dowod-container">
+            <p class="klasa69">Rzeczpospolita <br> Polska</p>
+            <img class="dowodzik" src="img/dowodzik.webp" alt="dowodzik">
+            <img class="chujowa" src="img/flaga.webp" alt="">
+            <img class="mini" src="img/godlo.webp" alt="">
+            <h2 class="imie">DANIEL</h2>
+            <h2 class="naz">KWIATKOWSKI</h2>
+            <h2 class="ur">08.03.2006</h2>
+            <h2 class="pesel">06230866636</h2>
+            <img class="sigma" src="img/cwel.jpg" height="" alt="">
+        </div>
+    </div>
+
+  
+    <div class="potwierdz">
+        <img class="check" src="icons/check.png" width="60px" height="30px" alt=""> <p class="fat">Potwierdź swoje dane</p>
+        <i id="angle-right" class="fa fa-angle-right"></i>
+    </div>
+
+    
+    <div class="dane">
+        <i id="idc" class="fa fa-id-card-o"></i><p class="fat">Dane dokumentu</p>
+        <i id="angle-right2" class="fa fa-angle-right"></i>
+    </div>
+<div id="ArrowDown" class="dane" style="font-size:larger;">
+<p class="fat">Twoje dane dodatkowe</p>
+<i id="angle-right2" class="fa fa-angle-right" onclick="TwojeDaneDodatkowePokaz()"></i>
+</div>
+    
+<div id="ArrowUp" class="dane" style="font-size:larger; display:none;">
+    <p class="fat">Twoje dodatkowe dane</p>
+    <i id="angle-right2" class="fa fa-angle-up" onclick="TwojeDaneDodatkoweUkryj()"></i>
+    </div>
+        
+<div id="DaneDodatkowe" class="dane" style="font-size:larger; display:none; justify-content: space-around; padding:1em auto;">
+    <div class="last-date" >
+        <div class="last-date-minitext">Ostatnia aktualizacja</div>    
+        <div id="DateToday"></div>    
+    </div>
+    <button type="button" class="btn">Aktualizuj</button>
+    </div>
+<script src="czas.js"></script>
+</body>
+</html>
